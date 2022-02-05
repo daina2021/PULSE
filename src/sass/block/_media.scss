@@ -1,0 +1,22 @@
+@media (max-width: 991px) {
+    .header {
+        justify-content: center;
+        &__official {
+           margin: auto 20px auto 20px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items:center;
+        }
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__phone {
+            font-size: 15px;
+        }
+    }
+}
