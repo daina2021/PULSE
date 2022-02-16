@@ -19,4 +19,10 @@
             font-size: 15px;
         }
     }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 }
